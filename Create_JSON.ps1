@@ -34,3 +34,4 @@ for ($i = 0; $i -lt $num_users; $i = $i + 1) {
 
     
 }
+$users | ConvertTo-JSON | out-file userlist.json
